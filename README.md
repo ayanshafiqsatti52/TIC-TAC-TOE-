@@ -193,6 +193,11 @@ Tic-Tac-Toe/
 
 > `save_data.json` is generated automatically when the game is run and stores the player's local progress.
 
+## 🎮 Play the Game
+
+[⬇️ Download the Windows Demo](YOUR_RELEASE_LINK)
+
+Download the ZIP, extract it, and run `Base Game.exe`.
 ## 📚 What I Learned
 
 Building this project helped me move beyond writing small Python programs and start thinking about how a complete application is structured.
