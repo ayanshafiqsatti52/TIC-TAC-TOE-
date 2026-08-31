@@ -4,13 +4,13 @@ A feature-packed Tic-Tac-Toe game built from scratch in Python using Tkinter, wi
 
 ## 📖 Why I Built This
 
-This project started as a joke.
+Well this project started as a joke.
 
-While I was studying Python, my teacher gave us a challenge question: make a Tic-Tac-Toe game. I decided to take the challenge seriously and spent the next **6 hours building one from scratch**.
+While I was studying Python, my teacher gave us a challenge question as a joke because he thought we could not complete it: make a Tic-Tac-Toe game. I decided to take the challenge seriously and spent the next **6 hours building one from scratch**.
 
 That first version made me realize how much could actually be done with a simple game. So this summer, I wanted to raise the stakes. Instead of making another basic Tic-Tac-Toe program, I decided to turn it into a proper playable game while learning how to build graphical user interfaces with Python.
 
-What started as a classroom challenge eventually grew into a project with multiple game modes, AI, progression, customization, statistics, sound, and even Ultimate Tic-Tac-Toe.
+What started as a classroom challenge eventually grew into a project with multiple game modes and many other fun additions to the game giving it an exciting new experience to the old boring 3x3 tic tac toe.
 
 ## ✨ Features
 
