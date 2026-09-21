@@ -205,7 +205,6 @@ Tic-Tac-Toe/
 
 ## 🎮 Play the Game
 
-[⬇️ Download the Windows Demo]()
 
 Download the ZIP, extract it, and run `Base Game.exe`.
 ## 📚 What I Learned
