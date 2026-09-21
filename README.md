@@ -19,10 +19,10 @@ What started as a classroom challenge eventually grew into a project with multip
 * 🧠 AI using **Minimax with Alpha-Beta Pruning**
 * 🎯 **3×3 and 4×4** standard boards
 * 🏆 **Ultimate Tic-Tac-Toe** mode
-* 🪙 Coin-based reward and progression system
+* 🪙 Coin-based game
 * 🎭 **9 unlockable characters**
 * 🎨 **5 unlockable board themes**
-* 📊 Persistent game statistics
+* 📊 Includes game statistics
 * 💾 Save data between sessions using JSON
 * 🔊 Background music and sound effects
 * ⚙️ Music and sound-effect controls
@@ -33,9 +33,9 @@ What started as a classroom challenge eventually grew into a project with multip
 
 ### Human vs Human
 
-Play a traditional game of Tic-Tac-Toe against another player on the same computer.
+Play a traditional game of Tic-Tac-Toe against a friend or foe.It's your choice!
 
-The game supports both **3×3 and 4×4 boards**, with three matching symbols required to win.
+The game supports both **3×3 and 4×4 boards**.
 
 ### Human vs Bot
 
@@ -49,7 +49,7 @@ Play against an AI opponent with three difficulty levels:
 
 The AI uses **Minimax** to evaluate possible moves. Alpha-beta pruning is used to eliminate branches that do not need to be searched.
 
-For the larger 4×4 board, the search depth is limited to keep the game responsive.
+For the larger 4×4 board, the search depth is limited to keep the game responsive and prevent a crash.
 
 ### 🏆 Ultimate Tic-Tac-Toe
 
@@ -57,7 +57,7 @@ Ultimate Tic-Tac-Toe expands the normal game into a **3×3 grid of nine smaller 
 
 Winning a small board claims that section of the larger board. The location of your move determines which small board your opponent has to play in next.
 
-This creates a much more strategic version of Tic-Tac-Toe where every move affects both the current small board and the future game state.
+This adds a new touch to the older much boring game and hence the name of the game "Not your average TIC TAC TOE".
 
 ## 🪙 Coins & Unlockables
 
@@ -66,8 +66,8 @@ Winning against the AI awards coins based on the difficulty.
 Coins can be spent to unlock:
 
 ### 🎭 Characters
-
-The game includes **9 playable characters**, each with its own visual assets.
+Everyone's bored of the regular old tick and cross in TIC TAC TOE so i decided to switch it up.
+The game includes **9 playable characters**, each with its own visual assets.It's based on the GEN-Alpha popular brain-rot theme adding a fun aspect to the game.
 
 ### 🎨 Board Themes
 
@@ -168,7 +168,7 @@ python "Base Game.py"
 6. If the board fills without a winner, the game ends in a tie.
 
 ### Ultimate Mode
-
+This is the star of the show.
 1. Start **Ultimate Mode** from the main menu.
 2. Choose an empty cell in any available mini-board.
 3. Your chosen cell determines the mini-board your opponent must play in.
@@ -193,9 +193,19 @@ Tic-Tac-Toe/
 
 > `save_data.json` is generated automatically when the game is run and stores the player's local progress.
 
+## Bugs in the game
+* There are some bugs in the final version of the game and I will fix them but your game might crash due to following
+* Opening 4x4 mode and changing character will lead to a crash
+* Opening 4x4 mode in ultimate,the bot will lose so its not technically unbeatable anymore.
+
+## Future Improvements
+* I want to host an online server
+* I also want to make a bot for ultimate mode.
+* Lastly i want to add more music and themes.
+
 ## 🎮 Play the Game
 
-[⬇️ Download the Windows Demo](YOUR_RELEASE_LINK)
+[⬇️ Download the Windows Demo]()
 
 Download the ZIP, extract it, and run `Base Game.exe`.
 ## 📚 What I Learned
@@ -204,12 +214,13 @@ Building this project helped me move beyond writing small Python programs and st
 
 Some of the main things I learned were:
 
-* Building graphical interfaces with Tkinter
+* Building GUI with Tkinter Library
 * Working with buttons, frames, labels, and event-driven programming
+* Using loops to manage an iterative system
 * Implementing game-state management
-* Designing AI using Minimax
+* Designing AI Bot  using Minimax
 * Improving Minimax with Alpha-Beta Pruning
-* Creating and managing persistent save data with JSON
+* Creating and managing save data with JSON
 * Working with images using Pillow
 * Adding music and sound effects with Pygame
 * Building a more complex game mode with Ultimate Tic-Tac-Toe
